@@ -136,11 +136,3 @@ python src/main.py --classes arcueid_brunestud yukinoshita_yukino \
   assumes a 64×64 input (after two 2x2 pools, the feature map is 16×16).
   Update `fc1`'s input size to `64 * (image_size // 4) ** 2` if you change this.
 
-## Acknowledgements
-
-Adapted from an IBM Skills Network educational notebook on CNNs for anime
-image classification. Original dataset/paper: AniWho (Common, 2022).
-
-## License
-
-MIT — see [LICENSE](LICENSE).
